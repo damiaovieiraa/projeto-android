@@ -38,7 +38,7 @@ header {
     text-align: center;
 }
 
-header h1 {
+header > h1 {
     font-family: var(--fonte-destaque);
     text-align: center;
     padding-top: 40px;
@@ -48,10 +48,10 @@ header h1 {
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.264);
 }
 
-header p {
+header > p {
     text-align: center;
     max-width: 600px;
-    padding-bottom: 23px;
+    padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
@@ -81,7 +81,7 @@ nav > a:hover {
 
 main {
     background-color: white;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
